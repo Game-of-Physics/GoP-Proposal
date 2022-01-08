@@ -126,12 +126,19 @@ RPG和沙盒模式进一步增加游戏的趣味。
 
 \section{游戏风格}
 
-游戏主打极简风格。在极简而审美在线的美术设计中，玩家将免去杂乱元素的干扰，沉浸于物理之美中。同时，极简的风格，搭配上合适、有氛围感的背景音乐，将潜移默化中引导玩家的专注力，使得玩家在行云流水的解谜安排中有沉浸、专注、充满氛围感而丝滑的游戏体验。
+游戏主打极简风格。在极简而审美在线的美术设计中，玩家将免去杂乱元素的干扰，沉浸于物理之美中。同时，极简的风格，搭配上合适、有氛围感的背景音乐，将潜移默化中引导玩家的专注力，使得玩家在行云流水的解谜安排中有沉浸、专注、充满氛围感而丝滑的游戏体验。（技能树icon的设计我还没想好）
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{MainScene} 
+\includegraphics[width=1\textwidth]{MainScene1} 
 \caption{游戏界面概念图}
+\label{MainScene}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{MainSceneAnnotated} 
+\caption{概念图说明}
 \label{MainScene}
 \end{figure}
 
@@ -183,6 +190,67 @@ RPG和沙盒模式进一步增加游戏的趣味。
 \begin{summary}
 
 \end{summary}
+
+\section{经典力学demo}
+
+\subsection{第一幕}
+
+开场。三个小球从比萨斜塔上由静止释放，同时落地，然后滚上不同斜坡。
+
+\begin{figure}[H]
+\centering 
+\includegraphics[width=1\textwidth]{Chapter1_1} 
+\caption{第一幕} 
+\label{1.1} 
+\end{figure}
+
+这时候产生了几个问题：
+
+\begin{enumerate}
+\item{三个小球为什么同时落地？}
+\item{绿球和蓝球为什么滚上了同样的高度？（释放时的高度？）}
+\item{黑球为什么会保持运动状态一直滚下去？}
+\end{enumerate}
+
+问题收录至日志中。为了解答这些问题，接下来由玩家你自由探索。
+
+\subsection{牛顿定律}
+
+\begin{enumerate}
+
+\item{黑球惯性实验}
+
+现在有三个相同的黑球，在三层平面上。对它们施加同样的拉力，到起始位置时撤去。三个平面摩擦系数不同。三个小球运动了不同的距离。实验结束后，解锁“惯性定律”。同时问题1.3得解。
+
+\item{F=ma实验}
+
+做3-5组实验，测量合力F，质量m和加速度a（加速度通过对速度曲线求导得到），完成后画出F-m*a图，得到F=ma。
+
+\item{作用力和反作用力}
+
+做3-5组实验，对两个相互作用的物体分别受力分析，完成后得到牛顿第三定律：作用力和反作用力相等。
+
+\end{enumerate}
+
+\subsection{参考系、惯性参考系与伽利略变换}
+
+\begin{enumerate}
+
+\item{台球实验}
+
+致敬刘慈欣《三体》1中的《台球》，和阿西莫夫的短篇小说《台球》。完成后得到“物理学定律在一切惯性系中等效”。
+
+\end{enumerate}
+
+\subsection{能量、功能关系、动能定理、机械能守恒}
+
+\begin{enumerate}
+
+\item{镜中人实验}
+
+致敬杰弗里·A·兰迪斯 《镜中人》。一个微摩擦的半圆巨坑。一个矿工被困在了坑里，想办法出去。
+
+\end{enumerate}
 
 %---------------------------------------------------------------------------
 % Bibliography
